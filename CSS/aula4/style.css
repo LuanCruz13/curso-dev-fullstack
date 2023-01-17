@@ -1,0 +1,30 @@
+body {
+    background: #dfdfdf;
+}
+
+p{
+    color: rgb(34, 34, 34);
+}
+
+/* . cria regra para classe da foto abaixo */
+.foto-principal{
+
+    /* tamanho da imagem */
+    width: 200px;
+    /* shorthand */
+    border: 2px inset #FFFFFF;
+    /* Cantinho da borda */
+    border-radius: 50% 50% 55% 50%;
+    /* Canto superior esquerdo, Canto superior direito, Canto inferior direito e Canto Inferior Esquerdo*/
+
+
+    /*
+    outro metodo
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+
+    */
+
+}

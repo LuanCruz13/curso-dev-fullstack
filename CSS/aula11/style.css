@@ -1,0 +1,73 @@
+body {
+    background: #dfdfdf;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(34, 34, 34);
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.profile{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* . cria regra para classe da foto abaixo */
+.foto-principal{
+
+    /* tamanho da imagem */
+    width: 200px;
+    /* shorthand */
+    border: 2px solid #fbfafa;
+    /* Cantinho da borda */
+    border-radius: 60% 30% 60% 30%;
+    margin: 30px 30px 0px 30px;
+    
+    /* espaçamento interno */
+    padding: 10px;
+
+    box-shadow: 0px 0px 10px #919191;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+
+}
+
+h2{
+    margin-top: 0;
+    font-style: italic;
+    color: #565353;
+    font-weight: 100;
+    letter-spacing: -1px;
+
+}
+
+p{
+    line-height: 25px;
+}
+
+.social-decorations{
+
+    text-decoration: none;
+
+}
+
+.social-links{
+    /* remover o underline do texto*/
+    text-decoration: none;
+}
+
+.social-icons{
+    width: 20px;
+}
+
+.github{
+    margin: 0 15px 0 15px;
+}
