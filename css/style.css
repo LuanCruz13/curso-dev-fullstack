@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;;
+    color: white;
+    background: rgb(54,77,204);
+    background: linear-gradient(176deg, rgba(54,77,204,1) 0%, rgba(19,35,124,1) 100%);
+}
+
+.avatar{
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2{
+    font-size: 16px;
+
+}
+
+.profile{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social{
+    display: flex; /* ativando flexbox (lado a lado na lista) */
+    justify-content: space-around; /* centralizando (so funciona com flex) */
+    list-style: none; /* removendo bolinhas da lista /li */
+    margin: 20px 0;
+
+}
+
+.social img{
+    width: 33px;
+
+}
+
+.links-list{
+    list-style: none; /* retirar os bullets da lista */
+    
+}
+
+.links-list li {
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0px 20px white;
+}
+
+.links-list li a{
+    display: block; /* para nao sobrepor um ao outro */
+    background-color: white;
+    padding: 15px 20px; /* margem */
+    border-radius: 4px;
+    /* removendo a linha/underline que denota links */
+    text-decoration: none;
+    color: rgb(54, 77, 204);
+    font-weight: bold;
+}
+
+/* selecionando o span dentro do li a da classe links-list */
+.links-list li a span{
+    color: grey;
+    display: block; /* Transformando o li em bloco*/
+    margin-top: 10px; /* fazendo a separaçao das duas linhas*/
+}
+
+
+
+
+
+/* personalizando a link list preta */
+
+
+.links-listpreta{
+    list-style: none; /* retirar os bullets da lista */
+}
+
+.links-listpreta li {
+    margin: 10px 20px;
+}
+
+.links-listpreta li a{
+    display: block; /* para nao sobrepor um ao outro */
+    background-color: white;
+    padding: 15px 20px; /* margem */
+    border-radius: 4px;
+    /* removendo a linha/underline que denota links */
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.links-listpreta li a span{
+    color: grey;
+    display: block; /* Transformando o li em bloco*/
+    margin-top: 10px; /* fazendo a separaçao das duas linhas*/
+}
+
+.espaco{
+    margin-bottom: 20px;
+}
